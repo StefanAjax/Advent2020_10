@@ -11,6 +11,9 @@
     <None Update="exampleData.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="largerExample.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="trueData.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
