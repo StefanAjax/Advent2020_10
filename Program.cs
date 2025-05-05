@@ -25,13 +25,10 @@
             }
             int numberOfOnes = diffs.Count(x => x == 1);
             int numberOfThrees = diffs.Count(x => x == 3);
-            int answer = numberOfOnes * (numberOfThrees + 1);
-            //Console.WriteLine($"The answer is {answer}.");
+            int answer = numberOfOnes * (numberOfThrees + 1);  // One extra for the built in adapter
+            Console.WriteLine($"The answer for part 1 is {answer}.");
+
             // Part 2
-            //foreach (var jolt in sortedJolts)
-            //{
-            //    Console.WriteLine(jolt);
-            //}
             var memo = new Dictionary<int, long>();
             int max = sortedJolts.Last();
             Console.WriteLine($"Max: {max}");
